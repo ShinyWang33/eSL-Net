@@ -40,9 +40,9 @@ Figure 2. Architecture of the proposed eSL-Net.
 ### Qualitative Comparisons of Reconstruction on the synthetic dataset
 
 <div  align="center">    
-<img src="results/syn1.png" width = "800"  alt="syn_result1" align=center />   
-<img src="results/syn2.png" width = "800"  alt="syn_result2" align=center /> 
-<img src="results/syn3.png" width = "800"  alt="syn_result3" align=center />
+<img src="results/syn1.PNG" width = "800"  alt="syn_result1" align=center />   
+<img src="results/syn2.PNG" width = "800"  alt="syn_result2" align=center /> 
+<img src="results/syn3.PNG" width = "800"  alt="syn_result3" align=center />
 </div>
 
 <div  align="center">       
@@ -61,9 +61,9 @@ Figure 2. Architecture of the proposed eSL-Net.
 ### Qualitative Comparisons of Reconstruction on the real dataset 
 
 <div  align="center">    
-<img src="results/real1.png" width = "800"  alt="real_result1" align=center />   
-<img src="results/real2.png" width = "800"  alt="real_result2" align=center /> 
-<img src="results/real3.png" width = "800"  alt="real_result3" align=center />
+<img src="results/real1.PNG" width = "800"  alt="real_result1" align=center />   
+<img src="results/real2.PNG" width = "800"  alt="real_result2" align=center /> 
+<img src="results/real3.PNG" width = "800"  alt="real_result3" align=center />
 </div>
 
 <div  align="center">       
