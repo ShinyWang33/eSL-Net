@@ -1,4 +1,5 @@
 # eSL-Net
+<<<<<<< HEAD
 
 <div  align="center">    
 <img src="https://github.com/ShinyWang33/eSL-Net/blob/master/figs/show.png" width = "600"  alt="show" align=center />   
@@ -106,3 +107,5 @@ In the following videos, The left side is the original APS frame by bicubic upsa
 <div align="center">
     <img src="https://github.com/ShinyWang33/eSL-Net/blob/master/results/j4.gif" width = "500" alt="j4" align=center /> 
 </div>
+=======
+>>>>>>> 2023a4c10781f60a3a2f7135d3396dd92251ea1a
