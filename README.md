@@ -14,7 +14,7 @@ Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity im
 * [Results](#results)
   * [Comparisons of Reconstruction on the synthetic dataset](#synthetic-dataset)
   * [Comparisons of Reconstruction on the real dataset](#real-dataset)
-* [High frame-rate Reconstruction ](#High-frame-rate)
+  * [High frame-rate Reconstruction ](#High-frame-rate)
 
 ## Results of Reconstruction
 
