@@ -14,9 +14,9 @@ Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity im
 * [Results](#results)
   * [Comparisons of Reconstruction on the synthetic dataset](#synthetic-dataset)
   * [Comparisons of Reconstruction on the real dataset](#real-dataset)
-  * [High frame-rate Reconstruction ](#High-frame-rate)
+* [High frame-rate Reconstruction ](#High-frame-rate)
 
-## Introduction
+## Results of Reconstruction
 
 With extremely high temporal resolution, event cameras have a large potential for robotics and computer vision. However, the recovering of high-quality images from event cameras is a very challenge problem, where the following issues should be addressed simultaneously.
 
@@ -93,10 +93,6 @@ In the following videos, The left side is the original APS frame by bicubic upsa
    <img src="results/rotatevideonew2_6.gif" width = "500" alt="rotatevideo" align=center /> </div>
 
 **Event Camera——DAVIS346：**
-
-<div align="center"
-    <img src="results/j4_v1.gif" width = "500" alt="haha" align=center /> 
-</div>
 
 <div align="center">
     <img src="results/j4.gif" width = "500" alt="j4" align=center /> 
