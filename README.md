@@ -1,5 +1,4 @@
 # eSL-Net
-<<<<<<< HEAD
 
 <div  align="center">    
 <img src="https://github.com/ShinyWang33/eSL-Net/blob/master/figs/show.png" width = "600"  alt="show" align=center />   
@@ -14,9 +13,9 @@ Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity im
 * [Introduction](#introduction)
 
 * [Results](#results)
-  * [Comparisons of Reconstruction on the synthetic dataset](#Qualitative Comparisons of Reconstruction on the synthetic dataset)
-  * [Comparisons of Reconstruction on the real dataset](#Qualitative Comparisons of Reconstruction on the real dataset)
-  * [High frame-rate Reconstruction ](#High frame-rate Reconstruction)
+  * [Comparisons of Reconstruction on the synthetic dataset](#synthetic-dataset)
+  * [Comparisons of Reconstruction on the real dataset](#real-dataset)
+  * [High frame-rate Reconstruction](#High-frame-rate)
 
 ## Introduction
 
@@ -108,4 +107,3 @@ In the following videos, The left side is the original APS frame by bicubic upsa
     <img src="https://github.com/ShinyWang33/eSL-Net/blob/master/results/j4.gif" width = "500" alt="j4" align=center /> 
 </div>
 =======
->>>>>>> 2023a4c10781f60a3a2f7135d3396dd92251ea1a
