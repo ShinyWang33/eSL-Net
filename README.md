@@ -79,7 +79,7 @@ Figure 2. Architecture of the proposed eSL-Net.
  Quantitative comparison of eSL-Net to EDI, CF and MR with SR method on the real dataset by BRISQUE measure, where lower values indicate higher quality.
 </div>
 
-## High frame-rate Reconstruction
+### High frame-rate Reconstruction
 
 In the following videos, The left side is the original APS frame by bicubic upsampling for 4 times, and the right side are the high frame rate, high resolution reconstructed results of eSL-Net.
 
