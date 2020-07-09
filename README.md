@@ -16,7 +16,7 @@ Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity im
   * [Comparisons of Reconstruction on the real dataset](#real-dataset)
   * [High frame-rate Reconstruction ](#High-frame-rate)
 
-## Results of Reconstruction
+## Introduction
 
 With extremely high temporal resolution, event cameras have a large potential for robotics and computer vision. However, the recovering of high-quality images from event cameras is a very challenge problem, where the following issues should be addressed simultaneously.
 
