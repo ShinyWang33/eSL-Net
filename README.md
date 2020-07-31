@@ -7,14 +7,52 @@
 Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity images for event cameras by APS frames and the corresponding event sequences.
 </div>
 
+This is code for  the paper **Event Enhanced High-Quality Image Recovery** by Bishan Wang, Jingwei He, Lei Yu, Gui-Song Xia, Wen Yang.
+
+You can find a pdf of the paper [here](https://arxiv.org/abs/2007.08336). The paper has been accepted by ECCV2020. If you use of this code, please cite the following publications:
+
+```
+@article{wang2020event,
+  title={Event Enhanced High-Quality Image Recovery},
+  author={Wang, Bishan and He, Jingwei and Yu, Lei and Xia, Gui-Song and Yang, Wen},
+  journal={arXiv preprint arXiv:2007.08336},
+  year={2020}
+}
+```
+
+## Run
+
+- pretrained model : code/pretraining/model_epoch_57.pth
+
+- an example file with event data: data_example
+
+  - Data of APS frames: camerashake_blurimage
+  - Data of events after preprocessing: camerashake_event_frame_txt
+  - direction of loading input for eSL-Net: test.txt
+
+- model of eSL-Net: model_n2.py
+
+- Run reconstruction:
+
+  ```
+  cd code
+  ```
+
+  ```
+  python test_real_data.py
+  ```
+
+  
+
 ## Contents
 
 * [Introduction](#introduction)
-
 * [Results](#results)
   * [Comparisons of Reconstruction on the synthetic dataset](#synthetic-dataset)
   * [Comparisons of Reconstruction on the real dataset](#real-dataset)
   * [High frame-rate Reconstruction ](#High-frame-rate)
+
+
 
 ## Introduction
 
@@ -28,7 +66,7 @@ With extremely high temporal resolution, event cameras have a large potential fo
 In our paper,  we propose an explainable network, an **e**vent-enhanced **S**parse **L**earning **Net**work (**eSL-Net**),  to **recover the high-quality images from event cameras**. Since events depict brightness changes, with the enhanced degeneration model by the events, the clear and sharp high-resolution latent images can be recovered from the noisy, blurry and low-resolution intensity observations. Exploiting the framework of sparse learning, the events and the low-resolution intensity observations can be jointly considered. Furthermore, without additional training process, the proposed eSL-Net can be **easily extended to generate continuous frames with frame-rate as high as the events**.
 
 <div  align="center">    
-<img src="figs/rdl_net.jpg" width = "400"  alt="haha" align=center />   
+<img src="figs/eSL-Net.PNG" width = "800"  alt="haha" align=center />   
 </div>
 
 <div  align="center">    
