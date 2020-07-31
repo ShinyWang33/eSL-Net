@@ -7,6 +7,8 @@
 Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity images for event cameras by APS frames and the corresponding event sequences.
 </div>
 
+
+
 This is code for  the paper **Event Enhanced High-Quality Image Recovery** by Bishan Wang, Jingwei He, Lei Yu, Gui-Song Xia, Wen Yang.
 
 You can find a pdf of the paper [here](https://arxiv.org/abs/2007.08336). The paper has been accepted by ECCV2020. If you use of this code, please cite the following publications:
