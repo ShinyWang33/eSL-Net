@@ -49,9 +49,6 @@ class Net(nn.Module):
         self.ps1=nn.PixelShuffle(2)
         self.ps2=nn.PixelShuffle(2)
 
-        '''for p in self.parameters():
-                    p.requires_grad=False'''
-
         self.event_c1=nn.Conv2d(in_channels=40, out_channels=64, kernel_size=1, stride=1, padding=0, bias=False)
         self.event_c2=nn.Conv2d(in_channels=64, out_channels=64, kernel_size=1, stride=1, padding=0, bias=False)
     
@@ -87,10 +84,6 @@ class Net(nn.Module):
 
 if __name__ == '__main__':
     print('running model.py')
-    from tensorboardX import SummaryWriter
     import argparse
-    parser = argparse.ArgumentParser(description="rlcsc_graph")
+    parser = argparse.ArgumentParser(description="eSL-Net")
     model = Net(parser.parse_args())
-
-    with SummaryWriter(comment='net') as w:
-        w.add_graph(model,(torch.Tensor(48,1,33,33),))

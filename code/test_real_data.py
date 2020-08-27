@@ -7,7 +7,7 @@ import os
 from PIL import Image
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
-parser = argparse.ArgumentParser(description="Pytorch CSN Eval")
+parser = argparse.ArgumentParser(description="Pytorch eSL-Net")
 parser.add_argument("--cuda", action="store_true", help="use cuda?")
 parser.add_argument("--model", type=str, default="pre_training/model_epoch_57.pth", help="model path")
 
