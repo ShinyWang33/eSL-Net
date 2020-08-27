@@ -11,28 +11,33 @@ Figure 1. Our eSL-Net reconstructs high-resolution, sharp and clear intensity im
 
 This is code for  the paper **Event Enhanced High-Quality Image Recovery** by Bishan Wang, Jingwei He, Lei Yu, Gui-Song Xia, Wen Yang.
 
-You can find a pdf of the paper [here](https://arxiv.org/abs/2007.08336). The paper has been accepted by ECCV2020. If you use of this code, please cite the following publications:
+You can find a pdf of the paper [here](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580154.pdf). The paper has been accepted by ECCV2020. If you use of this code, please cite the following publications:
 
 ```
-@article{wang2020event,
+@inproceedings{wang2020event,
   title={Event Enhanced High-Quality Image Recovery},
   author={Wang, Bishan and He, Jingwei and Yu, Lei and Xia, Gui-Song and Yang, Wen},
-  journal={arXiv preprint arXiv:2007.08336},
-  year={2020}
+  booktitle={European Conference on Computer Vision},
+  year={2020},
+  organization={Springer}
 }
 ```
 
 ## Run
 
-- pretrained model : code/pretraining/model_epoch_57.pth
+- Pretrained model : code/pretraining/model_epoch_57.pth
 
-- an example file with event data: data_example
+- An example file with event data: data_example
 
   - Data of APS frames: camerashake_blurimage
-  - Data of events after preprocessing: camerashake_event_frame_txt
-  - direction of loading input for eSL-Net: test.txt
 
-- model of eSL-Net: model_n2.py
+  - Data of events after preprocessing: camerashake_event_frame_txt
+
+    if you have new event data, the preprocessing of events can refer to code/generate_test_txt.m
+
+  - the path of loading input for eSL-Net: test.txt
+
+- Model of eSL-Net: model_n2.py
 
 - Run reconstruction:
 
@@ -44,7 +49,7 @@ You can find a pdf of the paper [here](https://arxiv.org/abs/2007.08336). The pa
   python test_real_data.py
   ```
 
-  
+- The results of reconstruction can be be viewed in the data_example/camerashake_results
 
 ## Contents
 
