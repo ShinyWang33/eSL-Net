@@ -137,3 +137,7 @@ In the following videos, The left side is the original APS frame by bicubic upsa
 <div align="center">
     <img src="results/j4.gif" width = "500" alt="j4" align=center /> 
 </div>
+
+<div align="center">
+    <img src="results/e4.gif" width = "500" alt="e4" align=center /> 
+</div>
