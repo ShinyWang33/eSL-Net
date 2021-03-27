@@ -1,4 +1,7 @@
+
+
 # eSL-Net
+
 <div  align="center">    
 <img src="figs/show.png" width = "600"  alt="show" align=center />   
 </div>
@@ -25,19 +28,23 @@ You can find a pdf of the paper [here](https://www.ecva.net/papers/eccv_2020/pap
 
 ## Run
 
-- Pretrained model : code/pretraining/model_epoch_57.pth
+- Pretrained model with SR : code/pre_trained/model_withsr_pretrained.pt
 
-- An example file with event data: data_example
+- Pretrained model without SR : code/pre_trained/model_withoutsr_pretrained.pt
 
-  - Data of APS frames: camerashake_blurimage
+- Model of eSL-Net with SR: code/model_sr.py
 
-  - Data of events after preprocessing: camerashake_event_frame_txt
+- Model of eSL-Net without SR: code/model_withoutsr.py
 
-    if you have new event data, the preprocessing of events can refer to code/generate_test_txt.m
+- Example files with event data: data_example
 
-  - the path of loading input for eSL-Net: test.txt
+  - Data of APS frames: data_example/cups/images、 data_example/pic2/images
 
-- Model of eSL-Net: model_n2.py
+  - Data of events: data_example/cups/mat、 data_example/pic2/mat
+
+    if you have new event data, you can preprocess the events referring to data_example/cups/mat and data_example/pic2/mat.
+
+  - the path of loading input for eSL-Net: realdata_list.txt
 
 - Run reconstruction:
 
@@ -45,11 +52,17 @@ You can find a pdf of the paper [here](https://www.ecva.net/papers/eccv_2020/pap
   cd code
   ```
 
+  if you want to reconstruct images without SR:
+
   ```
-  python test_real_data.py
+  python test_realdata.py --sr=0 --model=pre_trained/model_withoutsr_pretrained.pt --num_frame=3 --output_path=realdata_dn/
   ```
 
-- The results of reconstruction can be be viewed in the data_example/camerashake_results
+  if you want to reconstruct images with SR:
+
+  ```
+  python test_realdata.py --sr=1 --model=pre_trained/model_withsr_pretrained.pt --num_frame=3 --output_path=realdata_sr/
+  ```
 
 ## Synthetic Dataset
 
